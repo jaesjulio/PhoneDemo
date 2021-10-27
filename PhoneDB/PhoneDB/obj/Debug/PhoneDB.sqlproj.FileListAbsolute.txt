@@ -1,0 +1,6 @@
+C:\Users\jaesj\Desktop\PhoneApp\PhoneDB\PhoneDB\bin\Debug\PhoneDB.dacpac
+C:\Users\jaesj\Desktop\PhoneApp\PhoneDB\PhoneDB\bin\Debug\PhoneDB.dll
+C:\Users\jaesj\Desktop\PhoneApp\PhoneDB\PhoneDB\bin\Debug\PhoneDB.pdb
+C:\Users\jaesj\Desktop\PhoneApp\PhoneDB\PhoneDB\obj\Debug\PhoneDB.sqlproj.AssemblyReference.cache
+C:\Users\jaesj\Desktop\PhoneApp\PhoneDB\PhoneDB\obj\Debug\PhoneDB.dll
+C:\Users\jaesj\Desktop\PhoneApp\PhoneDB\PhoneDB\obj\Debug\PhoneDB.pdb
