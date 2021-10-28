@@ -16,12 +16,6 @@ namespace PhoneAppMobile.ViewModels
             SaveCommand = new Command(OnSave);
         }
 
-        private bool ValidateSave()
-        {
-            return !String.IsNullOrWhiteSpace(to)
-                && !String.IsNullOrWhiteSpace(message);
-        }
-
         public string To
         {
             get => to;
@@ -35,10 +29,14 @@ namespace PhoneAppMobile.ViewModels
         }
 
         public Command SaveCommand { get; }
-        
+
 
         private async void OnSave()
         {
+            if(string.IsNullOrWhiteSpace(To) || string.IsNullOrWhiteSpace(Message))
+            {
+                await Application.Current.MainPage.DisplayAlert("Alert", "Please write a message", "Ok");
+            }
             Message newMessage = new Message()
             {
                 ToNumber = To,
@@ -49,10 +47,17 @@ namespace PhoneAppMobile.ViewModels
 
             var response = await MessageService.SendMessage(newMessage);
 
-            Message = string.Empty;
-            To = string.Empty;
+            if (response.ExecutedSuccesfully)
+            {
+                Message = string.Empty;
+                To = string.Empty;
 
-            await Application.Current.MainPage.DisplayAlert("Alert", "Message Sent!", "Ok");
+                await Application.Current.MainPage.DisplayAlert("Alert", "Message Sent!", "Ok");
+            }
+            else
+            {
+                await Application.Current.MainPage.DisplayAlert("Alert", "Please try again later", "Ok");
+            }
         }
     }
 }

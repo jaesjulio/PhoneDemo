@@ -20,7 +20,13 @@
                             <Label Text="{Binding TextMessage}" 
                             LineBreakMode="NoWrap"
                             Style="{DynamicResource ListItemDetailTextStyle}"
-                            FontSize="13" />
+                            FontSize="14" />
+                            <Label Text="{Binding CreatedAt}" 
+                            LineBreakMode="NoWrap"
+                            Style="{DynamicResource ListItemDetailTextStyle}"
+                                   HorizontalTextAlignment="End"
+                                   HorizontalOptions="EndAndExpand"
+                            FontSize="12" />
                             <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" BackgroundColor="Silver"/>
                         </StackLayout>
                     </DataTemplate>

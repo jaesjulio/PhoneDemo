@@ -2,13 +2,18 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PhoneAppMobile.Views.MessagePage"
+             xmlns:behavior="clr-namespace:PhoneAppMobile.Behaviors"
              Title="Messaging">
     <ContentPage.Content>
         <StackLayout Spacing="3" Padding="15">
             <Label Text="To" FontSize="Medium" />
-            <Entry Text="{Binding To, Mode=TwoWay}" FontSize="Medium" />
+            <Entry Text="{Binding To, Mode=TwoWay}" FontSize="Medium" Keyboard="Telephone" Placeholder="+(XXX) XXXX-XXXX">
+                <Entry.Behaviors>
+                    <behavior:MaskedBehavior Mask="+(XXX) XXXX-XXXX" />
+                </Entry.Behaviors>
+            </Entry>
             <Label Text="Message" FontSize="Medium" />
-            <Editor Text="{Binding Message, Mode=TwoWay}" VerticalOptions="FillAndExpand" FontSize="Medium" Margin="0" />
+            <Editor Text="{Binding Message, Mode=TwoWay}" VerticalOptions="FillAndExpand" FontSize="Medium" Margin="0" Placeholder="Write your message"/>
             <StackLayout Orientation="Horizontal">
                 <Button Text="Send" Command="{Binding SaveCommand}" HorizontalOptions="FillAndExpand"></Button>
             </StackLayout>
