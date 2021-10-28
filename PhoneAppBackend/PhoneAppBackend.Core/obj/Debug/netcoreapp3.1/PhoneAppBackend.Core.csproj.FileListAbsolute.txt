@@ -9,3 +9,14 @@ C:\Users\jaesj\Desktop\PhoneApp\PhoneAppBackend\PhoneAppBackend.Core\obj\Debug\n
 C:\Users\jaesj\Desktop\PhoneApp\PhoneAppBackend\PhoneAppBackend.Core\obj\Debug\netcoreapp3.1\PhoneAppBackend.Core.dll
 C:\Users\jaesj\Desktop\PhoneApp\PhoneAppBackend\PhoneAppBackend.Core\obj\Debug\netcoreapp3.1\PhoneAppBackend.Core.pdb
 C:\Users\jaesj\Desktop\PhoneApp\PhoneAppBackend\PhoneAppBackend.Core\obj\Debug\netcoreapp3.1\PhoneAppBackend.Core.csproj.AssemblyReference.cache
+C:\Users\jaesj\source\repos\PhoneDemo\PhoneAppBackend\PhoneAppBackend.Core\bin\Debug\netcoreapp3.1\PhoneAppBackend.Core.dll.config
+C:\Users\jaesj\source\repos\PhoneDemo\PhoneAppBackend\PhoneAppBackend.Core\bin\Debug\netcoreapp3.1\PhoneAppBackend.Core.deps.json
+C:\Users\jaesj\source\repos\PhoneDemo\PhoneAppBackend\PhoneAppBackend.Core\bin\Debug\netcoreapp3.1\PhoneAppBackend.Core.dll
+C:\Users\jaesj\source\repos\PhoneDemo\PhoneAppBackend\PhoneAppBackend.Core\bin\Debug\netcoreapp3.1\PhoneAppBackend.Core.pdb
+C:\Users\jaesj\source\repos\PhoneDemo\PhoneAppBackend\PhoneAppBackend.Core\obj\Debug\netcoreapp3.1\PhoneAppBackend.Core.csproj.AssemblyReference.cache
+C:\Users\jaesj\source\repos\PhoneDemo\PhoneAppBackend\PhoneAppBackend.Core\obj\Debug\netcoreapp3.1\PhoneAppBackend.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jaesj\source\repos\PhoneDemo\PhoneAppBackend\PhoneAppBackend.Core\obj\Debug\netcoreapp3.1\PhoneAppBackend.Core.AssemblyInfoInputs.cache
+C:\Users\jaesj\source\repos\PhoneDemo\PhoneAppBackend\PhoneAppBackend.Core\obj\Debug\netcoreapp3.1\PhoneAppBackend.Core.AssemblyInfo.cs
+C:\Users\jaesj\source\repos\PhoneDemo\PhoneAppBackend\PhoneAppBackend.Core\obj\Debug\netcoreapp3.1\PhoneAppBackend.Core.csproj.CoreCompileInputs.cache
+C:\Users\jaesj\source\repos\PhoneDemo\PhoneAppBackend\PhoneAppBackend.Core\obj\Debug\netcoreapp3.1\PhoneAppBackend.Core.dll
+C:\Users\jaesj\source\repos\PhoneDemo\PhoneAppBackend\PhoneAppBackend.Core\obj\Debug\netcoreapp3.1\PhoneAppBackend.Core.pdb

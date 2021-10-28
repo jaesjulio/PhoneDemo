@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jaesj\\Desktop\\PhoneApp\\PhoneAppBackend\\PhoneAppBackend.Core\\PhoneAppBackend.Core.csproj": {}
+    "C:\\Users\\jaesj\\source\\repos\\PhoneDemo\\PhoneAppBackend\\PhoneAppBackend.Core\\PhoneAppBackend.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jaesj\\Desktop\\PhoneApp\\PhoneAppBackend\\PhoneAppBackend.Core\\PhoneAppBackend.Core.csproj": {
+    "C:\\Users\\jaesj\\source\\repos\\PhoneDemo\\PhoneAppBackend\\PhoneAppBackend.Core\\PhoneAppBackend.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jaesj\\Desktop\\PhoneApp\\PhoneAppBackend\\PhoneAppBackend.Core\\PhoneAppBackend.Core.csproj",
+        "projectUniqueName": "C:\\Users\\jaesj\\source\\repos\\PhoneDemo\\PhoneAppBackend\\PhoneAppBackend.Core\\PhoneAppBackend.Core.csproj",
         "projectName": "PhoneAppBackend.Core",
-        "projectPath": "C:\\Users\\jaesj\\Desktop\\PhoneApp\\PhoneAppBackend\\PhoneAppBackend.Core\\PhoneAppBackend.Core.csproj",
+        "projectPath": "C:\\Users\\jaesj\\source\\repos\\PhoneDemo\\PhoneAppBackend\\PhoneAppBackend.Core\\PhoneAppBackend.Core.csproj",
         "packagesPath": "C:\\Users\\jaesj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jaesj\\Desktop\\PhoneApp\\PhoneAppBackend\\PhoneAppBackend.Core\\obj\\",
+        "outputPath": "C:\\Users\\jaesj\\source\\repos\\PhoneDemo\\PhoneAppBackend\\PhoneAppBackend.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

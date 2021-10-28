@@ -13,7 +13,6 @@ namespace PhoneAppMobile
         {
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
             DependencyService.Register<MessageService>();
             MainPage = new AppShell();
         }

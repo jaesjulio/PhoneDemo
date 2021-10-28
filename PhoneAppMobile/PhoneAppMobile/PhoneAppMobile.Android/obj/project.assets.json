@@ -2447,11 +2447,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jaesj\\Desktop\\PhoneApp\\PhoneDemo\\PhoneAppMobile\\PhoneAppMobile\\PhoneAppMobile.Android\\PhoneAppMobile.Android.csproj",
+      "projectUniqueName": "C:\\Users\\jaesj\\source\\repos\\PhoneDemo\\PhoneAppMobile\\PhoneAppMobile\\PhoneAppMobile.Android\\PhoneAppMobile.Android.csproj",
       "projectName": "PhoneAppMobile.Android",
-      "projectPath": "C:\\Users\\jaesj\\Desktop\\PhoneApp\\PhoneDemo\\PhoneAppMobile\\PhoneAppMobile\\PhoneAppMobile.Android\\PhoneAppMobile.Android.csproj",
+      "projectPath": "C:\\Users\\jaesj\\source\\repos\\PhoneDemo\\PhoneAppMobile\\PhoneAppMobile\\PhoneAppMobile.Android\\PhoneAppMobile.Android.csproj",
       "packagesPath": "C:\\Users\\jaesj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jaesj\\Desktop\\PhoneApp\\PhoneDemo\\PhoneAppMobile\\PhoneAppMobile\\PhoneAppMobile.Android\\obj\\",
+      "outputPath": "C:\\Users\\jaesj\\source\\repos\\PhoneDemo\\PhoneAppMobile\\PhoneAppMobile\\PhoneAppMobile.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2473,8 +2473,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\Users\\jaesj\\Desktop\\PhoneApp\\PhoneDemo\\PhoneAppMobile\\PhoneAppMobile\\PhoneAppMobile\\PhoneAppMobile.csproj": {
-              "projectPath": "C:\\Users\\jaesj\\Desktop\\PhoneApp\\PhoneDemo\\PhoneAppMobile\\PhoneAppMobile\\PhoneAppMobile\\PhoneAppMobile.csproj"
+            "C:\\Users\\jaesj\\source\\repos\\PhoneDemo\\PhoneAppMobile\\PhoneAppMobile\\PhoneAppMobile\\PhoneAppMobile.csproj": {
+              "projectPath": "C:\\Users\\jaesj\\source\\repos\\PhoneDemo\\PhoneAppMobile\\PhoneAppMobile\\PhoneAppMobile\\PhoneAppMobile.csproj"
             }
           }
         }

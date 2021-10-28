@@ -21,7 +21,7 @@ namespace PhoneAppMobile.Mobile.Data
     public interface IMessageApi
     {
         [Post("/api/Message/SendMessage")]
-        Task<GenericApiResonse> SendMessage([Body]Message message);
+        Task<GenericApiResonse> SendMessage(Message message);
 
         [Get("/api/Message/GetMessages")]
         Task<List<Message>> GetMessages();

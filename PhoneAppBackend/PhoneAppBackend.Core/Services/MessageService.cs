@@ -12,11 +12,13 @@ namespace PhoneAppBackend.Core.Services
     {
         private readonly IMessageRepository _messageRepository;
         private readonly ISmsService _smsService;
+        private readonly IMessageInformationService _messageInformationService;
 
-        public MessageService(IMessageRepository messageRepository, ISmsService smsService)
+        public MessageService(IMessageRepository messageRepository, ISmsService smsService, IMessageInformationService messageInformationService)
         {
             _messageRepository = messageRepository;
             _smsService = smsService;
+            _messageInformationService = messageInformationService;
         }
         public override TaskResult Create(Message entity)
         {
@@ -25,7 +27,7 @@ namespace PhoneAppBackend.Core.Services
                 try
                 {
                     _messageRepository.Insert(entity);
-                    _messageRepository.CommitChanges();
+                    var a = _messageRepository.CommitChanges();
                     TaskResult.AddMessage("Message has been created");
                 }
                 catch (Exception exception)
@@ -104,6 +106,16 @@ namespace PhoneAppBackend.Core.Services
             if (created.ExecutedSuccesfully) 
             {
                 var sms = _smsService.SendSms(message.ToNumber.ToString(), message.TextMessage);
+
+                var msginfo = new MessageInformation()
+                {
+                    SentDateTime = DateTime.Parse(sms.Messages[1]),
+                    TwilioConfirmation = sms.Messages[0],
+                    TwilioMessage = sms.Messages[2],
+                    MessageId = _messageRepository.GetAllActive().Last().Id
+                };
+
+                _messageInformationService.Create(msginfo);
 
                 return sms;
             }

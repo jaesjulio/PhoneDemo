@@ -11,8 +11,8 @@ namespace PhoneAppMobile
         public AppShell()
         {
             InitializeComponent();
-            Routing.RegisterRoute(nameof(ItemDetailPage), typeof(ItemDetailPage));
-            Routing.RegisterRoute(nameof(NewItemPage), typeof(NewItemPage));
+            Routing.RegisterRoute(nameof(MessagePage), typeof(MessagePage));
+            Routing.RegisterRoute(nameof(HistoryPage), typeof(HistoryPage));
         }
 
     }

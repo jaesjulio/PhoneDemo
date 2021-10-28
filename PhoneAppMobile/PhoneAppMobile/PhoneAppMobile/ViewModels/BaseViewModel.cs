@@ -10,8 +10,6 @@ namespace PhoneAppMobile.ViewModels
 {
     public class BaseViewModel : INotifyPropertyChanged
     {
-        public IDataStore<Item> DataStore => DependencyService.Get<IDataStore<Item>>();
-
         public IMessageService MessageService => DependencyService.Get<IMessageService>();
 
 

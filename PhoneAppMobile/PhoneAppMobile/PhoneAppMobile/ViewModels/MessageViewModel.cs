@@ -8,24 +8,21 @@ namespace PhoneAppMobile.ViewModels
 {
     class MessageViewModel : BaseViewModel
     {
-        private int to;
+        private string to;
         private string message;
 
         public MessageViewModel()
         {
-            SaveCommand = new Command(OnSave, ValidateSave);
-            CancelCommand = new Command(OnCancel);
-            this.PropertyChanged +=
-                (_, __) => SaveCommand.ChangeCanExecute();
+            SaveCommand = new Command(OnSave);
         }
 
         private bool ValidateSave()
         {
-            return !String.IsNullOrWhiteSpace(to.ToString())
+            return !String.IsNullOrWhiteSpace(to)
                 && !String.IsNullOrWhiteSpace(message);
         }
 
-        public int To
+        public string To
         {
             get => to;
             set => SetProperty(ref to, value);
@@ -38,13 +35,7 @@ namespace PhoneAppMobile.ViewModels
         }
 
         public Command SaveCommand { get; }
-        public Command CancelCommand { get; }
-
-        private async void OnCancel()
-        {
-            // This will pop the current page off the navigation stack
-            await Shell.Current.GoToAsync("..");
-        }
+        
 
         private async void OnSave()
         {
@@ -52,15 +43,16 @@ namespace PhoneAppMobile.ViewModels
             {
                 ToNumber = To,
                 TextMessage = Message,
-
+                IsActive = true,
+                CreatedAt = DateTime.Now
             };
 
-            //await DataStore.AddItemAsync(newMessage);
+            var response = await MessageService.SendMessage(newMessage);
 
-            //var response = await MessageService.SendMessage(newMessage);
-            var response = await MessageService.GetMessages();
-            // This will pop the current page off the navigation stack
-            await Shell.Current.GoToAsync("..");
+            Message = string.Empty;
+            To = string.Empty;
+
+            await Application.Current.MainPage.DisplayAlert("Alert", "Message Sent!", "Ok");
         }
     }
 }

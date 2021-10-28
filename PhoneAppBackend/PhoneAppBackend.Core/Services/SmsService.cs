@@ -49,6 +49,9 @@ namespace PhoneAppBackend.Core.Services
                 var message = MessageResource.Create(messageOptions);
                 Console.WriteLine(message.Body);
                 res.ExecutedSuccesfully = true;
+                res.AddMessage(message.Status.ToString());
+                res.AddMessage(message.DateCreated.ToString());
+                res.AddMessage(message.Body);
 
             }
             catch (Exception exception)

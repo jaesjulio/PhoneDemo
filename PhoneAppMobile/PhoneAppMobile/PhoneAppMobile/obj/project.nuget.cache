@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CxrTvqtDdiDw9ETCvhVWvLQ2XQrlEstfRgH8kqH4D48EW4ZslpVJf17PBno7wkNnXUwS6caclUU5NgBZIGmmyQ==",
+  "dgSpecHash": "eq+sBEr73vCPNb1Njm+jsily1FqFrb8ON/kWfH1hGMvuwjMrqYQhEi6ssC5sBKiRyalk4O3QBV+chDoe2AQNKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jaesj\\Desktop\\PhoneApp\\PhoneDemo\\PhoneAppMobile\\PhoneAppMobile\\PhoneAppMobile\\PhoneAppMobile.csproj",
+  "projectFilePath": "C:\\Users\\jaesj\\source\\repos\\PhoneDemo\\PhoneAppMobile\\PhoneAppMobile\\PhoneAppMobile\\PhoneAppMobile.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jaesj\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
     "C:\\Users\\jaesj\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

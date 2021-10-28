@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "teirPXcHqUgbi8fPmXSVeVuGoyBAHUPd4viy6ErSTVRUnkMAeTK3iM6S/vBIm0MoLRKkvrn1lT5JJWqxDLYNtA==",
+  "dgSpecHash": "ofmTm5CSfDy29YzmrTITwvGRrijGvVsK65syJm9bAvSMJ1p0Lk3HAhsFzaazA6Pvb1k8edLP1amzPk+Otptd3A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jaesj\\Desktop\\PhoneApp\\PhoneDemo\\PhoneAppMobile\\PhoneAppMobile\\PhoneAppMobile.Android\\PhoneAppMobile.Android.csproj",
+  "projectFilePath": "C:\\Users\\jaesj\\source\\repos\\PhoneDemo\\PhoneAppMobile\\PhoneAppMobile\\PhoneAppMobile.Android\\PhoneAppMobile.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jaesj\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
     "C:\\Users\\jaesj\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",

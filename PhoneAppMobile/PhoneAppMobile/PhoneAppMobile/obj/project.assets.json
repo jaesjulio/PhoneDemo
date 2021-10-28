@@ -936,11 +936,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jaesj\\Desktop\\PhoneApp\\PhoneDemo\\PhoneAppMobile\\PhoneAppMobile\\PhoneAppMobile\\PhoneAppMobile.csproj",
+      "projectUniqueName": "C:\\Users\\jaesj\\source\\repos\\PhoneDemo\\PhoneAppMobile\\PhoneAppMobile\\PhoneAppMobile\\PhoneAppMobile.csproj",
       "projectName": "PhoneAppMobile",
-      "projectPath": "C:\\Users\\jaesj\\Desktop\\PhoneApp\\PhoneDemo\\PhoneAppMobile\\PhoneAppMobile\\PhoneAppMobile\\PhoneAppMobile.csproj",
+      "projectPath": "C:\\Users\\jaesj\\source\\repos\\PhoneDemo\\PhoneAppMobile\\PhoneAppMobile\\PhoneAppMobile\\PhoneAppMobile.csproj",
       "packagesPath": "C:\\Users\\jaesj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jaesj\\Desktop\\PhoneApp\\PhoneDemo\\PhoneAppMobile\\PhoneAppMobile\\PhoneAppMobile\\obj\\",
+      "outputPath": "C:\\Users\\jaesj\\source\\repos\\PhoneDemo\\PhoneAppMobile\\PhoneAppMobile\\PhoneAppMobile\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
